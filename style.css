@@ -190,5 +190,5 @@ body {
 }
 
 .gallery-grid img:hover {
-    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+    transform: scale(2); /* تكبير بسيط عند التمرير */
 }

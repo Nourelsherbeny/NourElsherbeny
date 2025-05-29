@@ -230,5 +230,17 @@
         <img src="image10.jpg" alt="Revit Work" class="work-sample revit">
     </div>
 </section>
+    <script>
+function filterCategory(category) {
+    const images = document.querySelectorAll('.gallery-grid img');
+    images.forEach(img => {
+        if (category === 'all' || img.classList.contains(category)) {
+            img.classList.add('active');
+        } else {
+            img.classList.remove('active');
+        }
+    });
+}
+</script>
 </body>
 </html>

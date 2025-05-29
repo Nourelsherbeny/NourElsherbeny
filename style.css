@@ -129,20 +129,13 @@ body {
             Examples Of My Work
         </h1>
         <div class="gallery-grid">
-             <img src="image1.jpg" alt="BIM Shop Drawing" class="work-sample shop">
-        <img src="image2.jpg" alt="BIM Shop Drawing" class="work-sample shop">
-        <img src="image3.jpg" alt="BIM Shop Drawing" class="work-sample shop">
-        <img src="image4.jpg" alt="BIM Shop Drawing" class="work-sample shop">
-        <img src="image5.jpg" alt="BIM Shop Drawing" class="work-sample shop">
-        <img src="image6.jpg" alt="BIM Shop Drawing" class="work-sample shop">
-        <img src="image3.jpg" alt="Coordination" class="work-sample coordination">
-        <img src="image4.jpg" alt="Revit Work" class="work-sample revit">
-        <img src="image5.jpg" alt="Shop Drawing" class="work-sample shop">
-        <img src="image6.jpg" alt="Coordination" class="work-sample coordination">
-        <img src="image7.jpg" alt="Revit Work" class="work-sample revit">
-        <img src="image8.jpg" alt="Shop Drawing" class="work-sample shop">
-        <img src="image9.jpg" alt="Coordination" class="work-sample coordination">
-        <img src="image10.jpg" alt="Revit Work" class="work-sample revit">
+       <div class="gallery-grid">
+        <img src="image1.jpg" alt="BIM Shop Drawing 1" >
+        <img src="image2.jpg" alt="BIM Shop Drawing 2" >
+        <img src="image3.jpg" alt="BIM Shop Drawing 3" >
+        <img src="image4.jpg" alt="BIM Shop Drawing 4" >
+        <img src="image5.jpg" alt="BIM Shop Drawing 5" >
+        <img src="image6.jpg" alt="BIM Shop Drawing 6" >
         </div>
     </section>
 </body>

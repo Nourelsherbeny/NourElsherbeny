@@ -156,7 +156,7 @@ body {
 
 /* قسم العنوان */
 .gallery-section {
-    text-align: left;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -172,7 +172,6 @@ body {
     border-radius: 5px;
     margin-bottom: 20px;
 }
-
 
 /* شبكة الصور */
 .gallery-grid {
@@ -192,6 +191,9 @@ body {
 
 .gallery-grid img:hover {
     transform: scale(2); /* تكبير بسيط عند التمرير */
+
+
+
 
 
 }

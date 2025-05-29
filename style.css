@@ -90,7 +90,7 @@ h5 {
     text-align: left;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة للنص */
-    margin: 0;
+    margin-top: 10px;
 }
 .references .reference p {
     font-size: 0.9em;

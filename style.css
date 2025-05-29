@@ -200,6 +200,3 @@ body {
         padding: 8px 16px;
     }
     
-.gallery-grid img:hover {
-    transform: scale(2); /* تكبير بسيط عند التمرير */
-}

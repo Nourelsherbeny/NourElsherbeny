@@ -83,15 +83,6 @@ h4 {
     margin: 0;
 }
 
-h5 {
-    font-size: 1.2em;
-    color: white;
-    text-transform: uppercase;
-    text-align: left;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة للنص */
-    margin-top: 10px;
-}
 .references .reference p {
     font-size: 0.9em;
     color: #666;
@@ -135,13 +126,8 @@ body {
     <!-- قسم الصور -->
     <section class="gallery-section">
         <h1 class="gallery-title">
-            Samples Of My Work
+            Examples Of My Work
         </h1>
-
-<h5 class="gallery-subtitle">
-            BIM Shop Drawing 
-        </h5>
-
         <div class="gallery-grid">
             <img src="image1.jpg" alt="Work Example 1">
             <img src="image2.jpg" alt="Work Example 2">
@@ -205,9 +191,6 @@ body {
 
 .gallery-grid img:hover {
     transform: scale(2); /* تكبير بسيط عند التمرير */
-    }
 
 
-
-
-
+}

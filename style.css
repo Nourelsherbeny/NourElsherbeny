@@ -123,72 +123,83 @@ body {
     <link rel="stylesheet" href="style.css"> <!-- تأكد من ربط ملف CSS الخاص بك -->
 </head>
 <body>
-    <!-- قسم الصور -->
-    <section class="gallery-section">
-        <h1 class="gallery-title">
-            Examples Of My Work
-        </h1>
-        <div class="gallery-grid">
-            <img src="image1.jpg" alt="Work Example 1">
-            <img src="image2.jpg" alt="Work Example 2">
-            <img src="image3.jpg" alt="Work Example 3">
-            <img src="image4.jpg" alt="Work Example 4">
-            <img src="image5.jpg" alt="Work Example 5">
-            <img src="image6.jpg" alt="Work Example 6">
-            <img src="image7.jpg" alt="Work Example 7">
-            <img src="image8.jpg" alt="Work Example 8">
-            <img src="image9.jpg" alt="Work Example 9">
-            <img src="image10.jpg" alt="Work Example 10">
-        </div>
-    </section>
-</body>
-</html>
-/* إعدادات خلفية الموقع */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-image: url('background.jpg'); /* ضع رابط خلفية موقعك هنا */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-/* قسم العنوان */
+   /* ==== قسم معرض الأعمال ==== */
 .gallery-section {
-    text-align: center;
-    margin-top: 50px;
+    padding: 40px 20px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .gallery-title {
     font-size: 2em;
     font-weight: bold;
-    color: white;
+    color: #333;
     text-transform: uppercase;
-    position: relative;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة للنص */
-    padding: 10px 20px;
-    border-radius: 5px;
+    text-align: center;
     margin-bottom: 20px;
+}
+
+/* أزرار التصنيف */
+.category-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.category-buttons button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 /* شبكة الصور */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 20px;
+    gap: 15px;
+    padding: 0 10px;
 }
 
 .gallery-grid img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
+.gallery-grid img:hover {
+    transform: scale(1.1);
+}
+
+/* إخفاء الصور حسب التصنيف */
+.gallery-grid img {
+    display: none;
+}
+
+.gallery-grid img.active {
+    display: block;
+}
+
+/* استجابة الشاشة الصغيرة */
+@media (max-width: 768px) {
+    .category-buttons button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
 .gallery-grid img:hover {
     transform: scale(2); /* تكبير بسيط عند التمرير */
 }

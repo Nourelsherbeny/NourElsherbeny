@@ -155,16 +155,12 @@ body {
 }
 
 /* قسم العنوان */
-.gallery-section 1 {
-    text-align: center;
-    margin-top: 50px;
-}
-.gallery-section 2 {
+.gallery-section {
     text-align: left;
     margin-top: 50px;
 }
 
-.gallery-title 2 {
+.gallery-title {
     font-size: 2em;
     font-weight: bold;
     color: white;
@@ -176,18 +172,7 @@ body {
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.gallery-title 2 {
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-    position: relative;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة للنص */
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
+
 
 /* شبكة الصور */
 .gallery-grid {

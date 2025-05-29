@@ -87,7 +87,7 @@ h5 {
     font-size: 1.2em;
     color: white;
     text-transform: uppercase;
-    position: left;
+    text-align: left;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة للنص */
     margin: 0;
